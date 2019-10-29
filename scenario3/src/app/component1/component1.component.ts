@@ -9,7 +9,7 @@ export class Component1Component implements OnInit {
 
   constructor() { }
 
-  public nameFromParent = "Ananya";
+  // public nameFromParent = "Ananya";
 
   ngOnInit() {
   }
