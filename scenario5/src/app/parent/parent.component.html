@@ -1,0 +1,5 @@
+<p>parent works!</p>
+<h2>{{message}}</h2>
+
+<app-child (childEvent)="getFromChild($event)"></app-child>
+<app-child (childEvent)="sendToGrand($event)"></app-child>
