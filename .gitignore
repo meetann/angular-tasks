@@ -1,0 +1,11 @@
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+######################
+# Visual Studio Code
+######################
+.vscode/
