@@ -10,6 +10,10 @@ export class Component1Component implements OnInit {
   constructor() { }
   public message="";
 
+  getMessage(message: string){
+    this.message=message;
+  }
+
   ngOnInit() {
   }
 

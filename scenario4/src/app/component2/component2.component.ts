@@ -11,8 +11,8 @@ export class Component2Component implements OnInit {
 
   @Output() public childEvent = new EventEmitter();
 
-  fireEvent(){
-    this.childEvent.emit("Hey from Child!");
+  fireEvent(value){
+    this.childEvent.emit("Hey from child! "+value);
   }
 
   ngOnInit() {
